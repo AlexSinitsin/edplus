@@ -1,0 +1,40 @@
+{
+  "lang": "English",
+  "buttonLogin": {
+    "login": "Log in",
+    "logout": "Log out",
+    "registration": "Registration",
+    "passwordRecovery": "Recover password",
+    "saveChanges": "Save changes",
+    "editPassword": "Edit password",
+    "newEvent": "New event"
+  },
+  "heading": {
+    "login": "Log in",
+    "registration": "Registration",
+    "passwordRecovery": "Password recovery",
+    "account": "User account"
+  },
+  "auth": {
+    "cmdr": "CMDR",
+    "email": "Email",
+    "pass": "Password",
+    "passwordConfirmation": "Password confirmation",
+    "discord": "Discord account"
+  },
+  "authValidationErrors": {
+    "email": "The mail is not correct",
+    "require": "All fields are required to be filled in",
+    "match": "Passwords must match"
+  },
+  "errors": {
+    "userExists": "User with this address already exists",
+    "ConfirmEmail": "A confirmation email has been sent to your email",
+    "NotAuth": "Authentication error",
+    "NoUser": "There is no such user",
+    "UserNotFound": "User not found"
+  },
+  "description": {
+    "coriolis": "To understand the configuration of the opponent's ship, make an assembly on the website"
+  }
+}

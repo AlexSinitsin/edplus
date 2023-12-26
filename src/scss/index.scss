@@ -1,0 +1,48 @@
+@import 'mixins';
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('../fonts/Eurostile-Reg.eot');
+  src: url('../fonts/Eurostile-Reg.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Eurostile-Reg.woff2') format('woff2'),
+      url('../fonts/Eurostile-Reg.woff') format('woff'),
+      url('../fonts/Eurostile-Reg.ttf') format('truetype'),
+      url('../fonts/Eurostile-Reg.svg#Eurostile-Reg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Eurostile';
+  src: url('../fonts/Eurostile-Bol.eot');
+  src: url('../fonts/Eurostile-Bol.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/Eurostile-Bol.woff2') format('woff2'),
+      url('../fonts/Eurostile-Bol.woff') format('woff'),
+      url('../fonts/Eurostile-Bol.ttf') format('truetype'),
+      url('../fonts/Eurostile-Bol.svg#Eurostile-Bol') format('svg');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  margin: 0px;
+  background: black url('../assets/222.png') no-repeat;
+  font-family: 'Eurostile';
+  background-size: 100%;
+}
+
+.button__transparent {
+  padding: 5px;
+  padding-bottom: 2px;
+  text-align: center;
+  border: 1px solid #FF8C0D;
+  margin-top: 20px;
+  color: #FF8C0D;
+  cursor: pointer;
+  transition: 0.3s;
+  &:hover {
+    color:black;
+    background: #FF8C0D;
+  }
+}

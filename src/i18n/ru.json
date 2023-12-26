@@ -1,0 +1,40 @@
+{
+  "lang": "Русский",
+  "buttonLogin": {
+    "login": "Вход в аккаунт",
+    "logout": "Выйти из аккаунта ",
+    "registration": "Registration",
+    "passwordRecovery": "Подтвертиде пароль",
+    "saveChanges": "Сохранить изменения",
+    "editPassword": "Редактировать пароль",
+    "newEvent": "Новое событие"
+  },
+  "heading": {
+    "login": "Вход",
+    "registration": "Регистрация",
+    "passwordRecovery": "Восстановление пароля",
+    "account": "Учетная запись пользователя"
+  },
+  "auth": {
+    "cmdr": "CMDR",
+    "email": "Email",
+    "pass": "Пароль",
+    "passwordConfirmation": "Подтвердите пароль",
+    "discord": "Discord account"
+  },
+  "authValidationErrors": {
+    "email": "Почта не корректно записана",
+    "require": "Все поля обязвтельны к заполнению",
+    "match": "Пароли не совпадают"
+  },
+  "errors": {
+    "userExists": "Пользователь с этим адресом уже существует",
+    "ConfirmEmail": "На вашу почту выслано письмо с подтверждением",
+    "NotAuth": "Ошибка аутентификации",
+    "NoUser": "Нет такого пользователя",
+    "UserNotFound": "Пользователь не найден"
+  },
+  "description": {
+    "coriolis": "To understand the configuration of the opponent's ship, make an assembly on the website"
+  }
+}
